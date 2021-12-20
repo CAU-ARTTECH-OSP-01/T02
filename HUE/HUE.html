@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hue:부캐만들기</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/img1.css">
+  <link rel="stylesheet" href="./css/img2.css">
+  <link rel="stylesheet" href="./css/img3.css">
+  <link rel="stylesheet" href="./css/img4.css">
+  <link rel="stylesheet" href="./css/img5.css">
+  <link rel="stylesheet" href="./css/img6.css">
+  <link rel="stylesheet" href="./css/img7.css">
+  <link rel="stylesheet" href="./css/img8.css">
+  <link rel="stylesheet" href="./css/img9.css">
+  <link rel="stylesheet" href="./css/img10.css">
+  <link rel="stylesheet" href="./css/img11.css">
+  <link rel="stylesheet" href="./css/img12.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/result.css">
+</head>
+
+<body>
+  <div class="container">
+    <section id="main" class="mx-auto my-3 py-3 px-1">
+      <div class="col-lg-14 col-md-16 col-sm-18 col-20 mx-auto py-5">
+        <img src="./img/main.png" alt="main" class="img-fluid">
+      </div>
+      <p>
+        <br>나만의 부캐를 만드는 사이트입니다!<br><br>
+        아래 시작하기 버튼을 눌러 시작해 주세요!~!<br>
+      </p>
+      <div class="col-lg-5 col-md-5 col-sm-4 col-4 mx-auto">
+        <input type="image" src="./img/button.png" alt="button" class="img-fluid" onclick="js:goStory()">
+      </div>
+    </section>
+    <div class="mx-auto my-3 py-1 px-1">
+      <section id="img1">
+        <input type="image" src="./img/img1.png" alt="img1" class="img-fluid" onclick="js:changeImg1()">
+      </section>
+
+      <section id="img2">
+        <input type="image" src="./img/img2.png" alt="img2" class="img-fluid" onclick="js:changeImg2()">
+      </section>
+
+      <section id="img3">
+        <input type="image" src="./img/img3.png" alt="img3" class="img-fluid" onclick="js:changeImg3()">
+      </section>
+
+      <section id="img4">
+        <input type="image" src="./img/img4.png" alt="img4" class="img-fluid" onclick="js:changeImg4()">
+      </section>
+
+      <section id="img5">
+        <input type="image" src="./img/img5.png" alt="img5" class="img-fluid" onclick="js:changeImg5()">
+      </section>
+
+      <section id="img6">
+        <input type="image" src="./img/img6.png" alt="img6" class="img-fluid" onclick="js:changeImg6()">
+      </section>
+
+      <section id="img7">
+        <input type="image" src="./img/img7.png" alt="img7" class="img-fluid" onclick="js:changeImg7()">
+      </section>
+
+      <section id="img8">
+        <input type="image" src="./img/img8.png" alt="img8" class="img-fluid" onclick="js:changeImg8()">
+      </section>
+
+      <section id="img9">
+        <input type="image" src="./img/img9.png" alt="img9" class="img-fluid" onclick="js:changeImg9()">
+      </section>
+
+      <section id="img10">
+        <input type="image" src="./img/img10.png" alt="img10" class="img-fluid" onclick="js:changeImg10()">
+      </section>
+
+      <section id="img11">
+        <input type="image" src="./img/img11.png" alt="img11" class="img-fluid" onclick="js:changeImg11()">
+      </section>
+
+      <section id="img12">
+        <input type="image" src="./img/img12.png" alt="img12" class="img-fluid" onclick="js:goQna()">
+      </section>
+    </div>
+    <section id="qna">
+      <div class="status mx-auto mt-5">
+        <div class="statusBar">
+        </div>
+      </div>
+      <div class="qBox my-5 py-3 mx-auto">
+
+      </div>
+      <div class="answerBox">
+
+      </div>
+    </section>
+    <section id="result" class="mx-auto my-5 py-5 px-3">
+      <h1 class="pt-5">당신의 결과는?!</h1>
+      <div class="resultname">
+
+      </div>
+      <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
+
+      </div>
+      <div class="resultDesc">
+
+      </div>
+      <button type="button" class="kakao mt-3 py-2 px-3"> 공유하기</button>
+    </section>
+    <script src="./js/data.js" charset="utf-8"></script>
+    <script src="./js/start.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>
